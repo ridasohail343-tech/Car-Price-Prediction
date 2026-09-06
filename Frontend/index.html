@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>Car Price Prediction</h1>
+<div class="red">
+    <label>Car Name</label>
+    <input id="name" type="text" placeholder="Enter car name">
+    <br> 
+    <label>Company Name</label>
+    <input id="company" type="text" placeholder="Enter company name">
+    <br>
+    <label>Year</label>
+    <input id="year" type="number" placeholder="Enter year">
+    <br>
+    <label>Kilometers Driven</label>
+    <input id="km" type="number" placeholder="Enter kilometers">
+    <br>
+    <label>Fuel Type</label>
+    <select id="fuel">
+        <option>Petrol</option>
+        <option>Diesel</option>
+        <option>LPG</option>
+    </select>
+    <br>
+    <button class="predict">Predict Price</button>
+    <p id="predicted_price"></p>
+    <script src="/static/script.js"></script>
+</div>
+</body>
+</html>
